@@ -170,3 +170,58 @@ h1, h2, h3 {
 	margin: 0 10px;
 	color: #000;
 }
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+  margin-bottom: -362px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 280px;
+  background:
+  /* color overlay */
+    linear-gradient(
+      rgba(240, 212, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* image to overlay */
+    url(http://images.cdn.fotopedia.com/_avPIZmqM3w-7z161LH_268-hd.jpg);
+}
+
+
+
+
+/* Custom footer CSS
+-------------------------------------------------- */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+  margin-top: 111px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.footertext {
+  color: #ffffff;
+}
+
+
+.container-fluid{
+  background:#F0F5FF;
+}
+
+
+.img-fluid{
+	width: 50%;
+	margin:auto;
+}
